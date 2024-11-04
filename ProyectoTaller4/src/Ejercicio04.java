@@ -21,3 +21,10 @@ public class Ejercicio04 {
         
     }
 }
+
+/***
+ * Ingrese el costo de llamada por minuto: 10
+ * Ingrese el numero de minutos consumidos al mes: 89
+ * Los gastos de planilla de telefono al mes es: 890.0
+ */
+

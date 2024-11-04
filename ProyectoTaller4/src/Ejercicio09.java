@@ -2,21 +2,21 @@ import java.util.Scanner;
 public class Ejercicio09 {
     public static void main(String[] args) {
         // Declaracion de variables
-        double areatriagRectangulo, baseCuadrado, alturaRect, areaTotal;
+        double areatriagRectangulo, areaCuadrado, areaRectangulo, areaTotal;
         Scanner teclado = new Scanner(System.in); 
         
         // Base de datos de entrada 
         
         System.out.print("Ingrese valores para la base del cuadrado: "); 
-        baseCuadrado = teclado.nextDouble();
+        areaCuadrado = teclado.nextDouble();
         System.out.print("Ingrese valores para la altura del rectangulo: "); 
-        alturaRect = teclado.nextDouble();
+        areaRectangulo = teclado.nextDouble();
         
         // Bloque de procesamiento de datos de entrada
-        areatriagRectangulo = ((baseCuadrado * alturaRect)* 3); 
-        baseCuadrado = ( baseCuadrado * baseCuadrado); 
-        alturaRect = (baseCuadrado * alturaRect); 
-        areaTotal = (areatriagRectangulo + baseCuadrado + alturaRect); 
+        areatriagRectangulo = ((areaCuadrado * areaRectangulo)* 3); 
+        areaCuadrado = (areaCuadrado * areaCuadrado); 
+        areaRectangulo = (areaCuadrado * areaRectangulo); 
+        areaTotal = (areatriagRectangulo + areaCuadrado + areaRectangulo); 
         
         // Bloque de salida
         System.out.println("El area total es: " + areaTotal);
@@ -24,3 +24,9 @@ public class Ejercicio09 {
         
     }
 }
+
+/***
+ * Ingrese valores para la base del cuadrado: 1
+ * Ingrese valores para la altura del rectangulo: 2
+ * El area total es: 9.0
+ */
