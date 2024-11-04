@@ -1,8 +1,9 @@
 import java.util.Scanner;
 public class Ejercicio08 {
     public static void main(String[] args) {
-        double youtubePremium, spotify, dropbox, netflix, edad, costoMensual,
+        double youtubePremium, spotify, dropbox, netflix, costoMensual,
                descuento;
+        int edad;
         Scanner teclado = new Scanner(System.in);
         
         // Bloque datos de entrada 

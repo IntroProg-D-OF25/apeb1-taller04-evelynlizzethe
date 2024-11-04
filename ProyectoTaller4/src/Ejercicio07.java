@@ -23,8 +23,8 @@ public class Ejercicio07 {
             System.out.println("El valor a pagar es: " + costoPlanilla);
         } else {
         // Bloque de procesamiento de salida 
-            System.out.printf("El valor a pagar es: ",
-                    costoPlanilla);
+            System.out.printf("El valor a pagar es: "
+                    + costoPlanilla);
         }
     }
 }
@@ -34,4 +34,11 @@ public class Ejercicio07 {
  * Ingresar el consumo mensual por Kilovatio: 25
  * Ingresar su edad: 67
  * El valor a pagar es: 180.0
+ */
+
+/***
+ * Ingresar el costo por Kilovatio: 8
+ * Ingresar el consumo mensual por Kilovatio: 25
+ * Ingresar su edad: 32
+ * El valor a pagar es: 200.0
  */
